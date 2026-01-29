@@ -6,7 +6,7 @@ This repository contains the latest version of my résumé.
 
 ## 📎 Download
 
-👉 **[Download Resume (PDF)](./resume.pdf)**
+👉 **[Download Resume (PDF)](./Kofi_Kim_Resume_Feb_2026.pdf)**
 
 ---
 
