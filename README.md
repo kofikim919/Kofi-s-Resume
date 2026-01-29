@@ -1,6 +1,12 @@
 # 📄 Resume – Kofi Kim
 
-This repository contains the latest version of my résumé.
+This repository contains the latest version of my résumé, coded in LaTeX.
+
+---
+
+## 👨‍💻 Resume Code
+
+👉 **[View File (LaTeX)](./kofi_kim_resume.tex)**
 
 ---
 
@@ -12,7 +18,7 @@ This repository contains the latest version of my résumé.
 
 ## 👀 Preview
 
-![Resume Preview](resume.png)
+![Resume Preview](resume.jpg)
 
 ---
 
