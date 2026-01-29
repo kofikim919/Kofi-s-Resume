@@ -1,0 +1,225 @@
+%-------------------------
+% Resume in Latex
+% Author : Kofi Kim
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kofi Kim} \\ \vspace{1pt}
+    \small 415-818-7495 $|$ \href{mailto:kofikim919@gmail.com}{\underline{kofikim919@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/kofi-kim-02b213291/}{\underline{linkedin.com/in/kofi-kim-02b213291}} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Haverford College}{Haverford, PA}
+      {B.S. Physics, B.S. Computer Science}{Aug 2025 -- Present}
+        \resumeItemListStart
+        \resumeItem{\textbf{GPA: 4.00/4.00}}
+        \resumeItem{Teaching Assistant for PHYS 106: Foundations of Physics II}
+        \resumeItem{Intending to Pursue 4+1 Accelerated Master's in Mechanical Engineering with \emph{University of Pennsylvania}}
+        \resumeItem{\textbf{CMO}, Haverford Venture Capital and Private Equity Club}
+        \resumeItem{\textbf{Events Board Member}, Pan Asian Resource Center}
+        \resumeItem{NCAA Division III Track and Field Athlete}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Investment Analyst Intern}{Jun 2025 -- July 2025}
+      {Crownhall Group}{Palo Alto, CA}
+      \resumeItemListStart
+        \resumeItem{Conducted qualitative and quantitative research on potential investments, evaluating company fundamentals, leadership teams, financial statements, and product differentiation}
+        \resumeItem{Researched the aerospace and defense industry landscape, comparing performance and strategy between established firms and emerging startups}
+        \resumeItem{Built market maps to visualize competitive dynamics, whitespace opportunities, and investment theses across subsectors}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Sales Associate}{Aug 2025 -- Present}
+      {Alo Yoga}{Ardmore, PA}
+      \resumeItemListStart
+        \resumeItem{Delivered high-touch customer service to hundreds of customers per shift in a fast-paced retail environment}
+        \resumeItem{Served as first point of contact (greeter), fitting-room assistant, and cashier}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Flight Simulator Instructor}{Jun 2023 -- Jan 2025}
+      {Hiller Aviation Museum}{San Carlos, CA}
+      \resumeItemListStart
+        \resumeItem{Instructed 25–30+ participants per day in an FAA-certified full-motion flight simulator}
+        \resumeItem{Led fully simulated VFR flights (SFO–Half Moon Bay), teaching taxi, takeoff, cruise, landing, navigation, ATC communication, and avionics usage in an FAA-certified full-motion simulator}
+        \resumeItem{Explained aerodynamic physics and aircraft systems to audiences ranging from children to adults (ages 5–80)}
+        \resumeItem{Strengthened public speaking, technical communication, and instructional design skills in a museum setting}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Private Pilot}{Sep 2022 -- Present}
+      {West Valley Flying Club}{Palo Alto, CA}
+      \resumeItemListStart
+        \resumeItem{FAA-certified private pilot with 150+ hours, 350+ landings; experience in C172SP (G1000) and DA40 (G1000nxi) aircraft}
+        \resumeItem{Demonstrated strong workload management, risk assessment, and safety-critical decision-making}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Aerodynamic Physics Science Research} $|$ \emph{Python, Electrical Engineering, Power Tools, CAD, 3D Printing }}{}
+          \resumeItemListStart
+            \resumeItem{Designed and constructed a custom wind tunnel to experimentally study aerodynamic physics}
+            \resumeItem{Investigated methods to reduce form drag and parasite drag across multiple geometries}
+            \resumeItem{Collected and analyzed experimental data to optimize drag balance and flow characteristics}
+            \resumeItem{\textbf{Awarded} Nabila Maazouz Science Research Award}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Autonomous Vehicle Simulation} $|$ \emph{Python, C\#, Neural Networks, Machine Learning, Unity}}{}
+          \resumeItemListStart
+            \resumeItem{Developed and trained a neural network to autonomously pilot simulated vehicles (aircraft, automobiles, ships)}
+            \resumeItem{Tested performance in obstacle-dense and adverse environments, emphasizing robustness and adaptability}
+            \resumeItem{\textbf{Awarded} USAF Science Research Award and PNW Scientist Honorable Mention}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Additional}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Skills}{: Java, Python, C\#, Git, HTML/CSS, VS Code, PyCharm, NumPy, Matplotlib, Premiere Pro, Photoshop} \\
+     \textbf{Interests/Hobbies}{: Space Exploration, Aviation, Snowboarding, Surfing, DJing, Weightlifting, Basketball} \\
+     \textbf{Languages}{: Elementary Mandarin and Spanish; Beginner German} \\
+     \textbf{Certifications}{: Private Pilot (FAA), Open Water Scuba Diver (PADI), Pursuing Instrument Rating (FAA)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
